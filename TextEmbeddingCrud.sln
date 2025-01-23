@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BCAAAC1E-5F5E-45B5-97F8-5B2874DBD792}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{DB09DB6B-4C05-438F-9E98-E9654691A5FC}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yml = compose.yml
+		ensure-extension.sql = ensure-extension.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEmbeddingCrud.App", "src\TextEmbeddingCrud.App\TextEmbeddingCrud.App.csproj", "{43331D91-7BB8-471E-B962-8E5B87ACF77F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43331D91-7BB8-471E-B962-8E5B87ACF77F} = {BCAAAC1E-5F5E-45B5-97F8-5B2874DBD792}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43331D91-7BB8-471E-B962-8E5B87ACF77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43331D91-7BB8-471E-B962-8E5B87ACF77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43331D91-7BB8-471E-B962-8E5B87ACF77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43331D91-7BB8-471E-B962-8E5B87ACF77F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
